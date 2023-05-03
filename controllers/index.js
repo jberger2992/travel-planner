@@ -6,7 +6,7 @@ const travellerRoutes = require("./travellerController");
 const tripsRoutes = require("./tripsController");
 
 router.get("/",(req,res)=>{
-    res.send("this is the homepage!")
+    res.send("Travellers Welcome")
 })
 
 router.use("/api/locations",locationRoutes)
