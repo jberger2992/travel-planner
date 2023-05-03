@@ -11,6 +11,6 @@ router.get("/",(req,res)=>{
 
 router.use("/api/locations",locationRoutes)
 router.use("/api/travellers",travellerRoutes)
-router.use("/api/tripss",tripsRoutes)
+router.use("/api/trips",tripsRoutes)
 
 module.exports = router;
