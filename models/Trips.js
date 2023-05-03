@@ -8,6 +8,10 @@ Trips.init({
         type: DataTypes.INTEGER,
         allowNull:false,
     },
+    traveller_amount: {
+        type: DataTypes.INTEGER,
+        allowNull:false,
+    },
 },{
     sequelize
 });
