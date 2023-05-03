@@ -6,6 +6,7 @@ class Location extends Model {}
 Location.init({
     name: {
         type: DataTypes.STRING,
+        allowNull:false,
     }
 },{
     sequelize
