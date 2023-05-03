@@ -42,7 +42,7 @@ router.post("/", (req, res) => {
       });
 });
 
-// Delete a Traveller.
+// Delete a traveller.
 router.delete("/:id", (req, res) => {
     Traveller.destroy({
       where: {
@@ -57,3 +57,5 @@ router.delete("/:id", (req, res) => {
         res.status(500).json({ msg: "error occurred", err });
       });
   });
+
+  module.exports = router;
